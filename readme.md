@@ -1,14 +1,14 @@
 # PDF Editor
 
-No install. No server. ¯\\\_(ツ)\_/¯ https://pdf-editor.now.sh
-![It just works!](https://i.imgur.com/m3weLXQ.gif)
+Original by Shizukulchi at https://github.com/ShizukuIchi/pdf-editor
+in this repository will maintainced version with new dependency version
 
-## How to use pdf-editor?
+## How to run on my localhost?
 
-1. Click `Choose PDF` to upload a `.pdf` file.
-2. Add images, signatures, text to your PDF.
-3. Click `Save`.
-4. That's it! All is done **in your browser**.
+1. Clone this repo.
+2. npm install  ==> for install dependecies
+3. npm run start:dev
+4. input on browser url to localhost:5500
 
 ## Features
 
