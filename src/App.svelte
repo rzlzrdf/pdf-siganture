@@ -37,7 +37,7 @@
       setTimeout(() => {
         fetchFont(currentFont);
         prepareAssets();
-      }, 5000);
+      }, 5500);
       // const imgBlob = await (await fetch("/test.jpg")).blob();
       // addImage(imgBlob);
       // addTextField("測試!");
