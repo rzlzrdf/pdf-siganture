@@ -196,10 +196,10 @@
   on:dragover|preventDefault
   on:drop|preventDefault={onUploadPDF} />
 <Tailwind />
-<main class="flex flex-col items-center py-16 bg-gray-100 min-h-screen">
+<main class="flex flex-col items-center py-16 bg-white text-black min-h-screen">
   <div
     class="fixed z-10 top-0 left-0 right-0 h-12 flex justify-center items-center
-    bg-gray-200 border-b border-gray-300">
+    bg-white border-b border-gray-300">
     <input
       type="file"
       name="pdf"
@@ -216,10 +216,10 @@
       class="whitespace-no-wrap bg-blue-500 hover:bg-blue-700 text-white
       font-bold py-1 px-3 md:px-4 rounded mr-3 cursor-pointer md:mr-4"
       for="pdf">
-      Choose PDF
+      Document
     </label>
     <div
-      class="relative mr-3 flex h-8 bg-gray-400 rounded-sm overflow-hidden
+      class="relative mr-3 flex h-8 bg-white rounded-sm overflow-hidden
       md:mr-4">
       <label
         class="flex items-center justify-center h-full w-8 hover:bg-gray-500
@@ -263,11 +263,7 @@
       class:bg-blue-700={pages.length === 0 || saving || !pdfFile}>
       {saving ? 'Saving' : 'Save'}
     </button>
-    <a href="https://github.com/ShizukuIchi/pdf-editor">
-      <img
-        src="/GitHub-Mark-32px.png"
-        alt="A GitHub icon leads to personal GitHub page" />
-    </a>
+   
   </div>
   {#if addingDrawing}
     <div
